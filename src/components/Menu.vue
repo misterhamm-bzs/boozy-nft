@@ -1,6 +1,6 @@
 <template>
     <nav>
-      <img src="~@/assets/cc-logo.png" class="logo" alt="">
+      <router-link to="/"><img src="~@/assets/cc-logo.png" class="logo" alt=""></router-link>
       <div class="nes-container is-rounded">
         <h2>Drink menu</h2>
         <ul class="nes-list is-disc main-menu">
