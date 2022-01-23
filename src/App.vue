@@ -1,32 +1,61 @@
 <template>
   <div class="page">
-    <Menu/>
     <main>
-      <router-view/>
+      <Intro/>
+      <Description/>
+      <TopShelf/>
+      <Testimonials/>
+      <Team/>
+      <Footer/>
     </main>
   </div>
 </template>
 
 <script>
-import Menu from './components/Menu.vue';
+import Intro from './components/Intro.vue';
+import Testimonials from './components/Testimonials.vue';
+import Footer from './components/Footer.vue';
+import Team from './components/Team.vue';
+import TopShelf from './components/TopShelf.vue';
+import Description from './components/Description.vue';
 
 export default {
   name: 'App',
   components: {
-    Menu,
+    Intro,
+    Testimonials,
+    Footer,
+    Team,
+    TopShelf,
+    Description,
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .page {
     display: flex;
-    height: 100vh;
   }
 
   main {
-    background-color: rgba(251, 243, 231, 0.5);
+    background-color: #212529;
+    color: #FFFFFF;
     flex-grow: 1;
-    padding: 60px;
+    text-align: center;
+  }
+
+  .container {
+    padding: 0 30px;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .cta {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  img {
+    max-width: 100%;
   }
 </style>
