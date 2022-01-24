@@ -11,7 +11,7 @@
           </span>
         </span>
       </span>
-      <img src="~@/assets/drinks/1.png" alt="">
+      <img src="~@/assets/drinks/5.png" alt="">
     </div>
   </div>
 </template>
@@ -28,6 +28,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.top-shelf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .legendary {
     position: relative;
     margin-top: 60px;
