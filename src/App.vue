@@ -58,4 +58,16 @@ export default {
   img {
     max-width: 100%;
   }
+
+  em {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .section {
+    margin-top: 160px;
+  }
+  h2 {
+    margin-bottom: 40px !important;
+  }
 </style>

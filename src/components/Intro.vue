@@ -1,12 +1,12 @@
 <template>
   <div class="intro">
     <div class="container">
-        <img src="~@/assets/red-glass.png" alt="">
+        <img class="drank" src="~@/assets/red-glass.png" alt="">
       <h1 class="logo">
-        <span class="name">Cool Cocktails</span> <span class="nft">NFT</span>
+        <img src="~@/assets/logo.png" alt="">
       </h1>
       <div class="nes-container is-dark is-rounded is-centered">
-        <p>CoolCocktails<em>NFT</em> are 5,000 collectible ERC-721 Non-Fungible Tokens (NFT) stored on
+        <p>CoolCocktail<em>NFT</em> are 5,000 collectible ERC-721 Non-Fungible Tokens (NFT) stored on
 Ethereum blockchain.</p>
       </div>
       <div class="cta">
@@ -33,12 +33,12 @@ export default {
   .intro {
     //background-image: url('~@/assets/Stars.png');
     min-height: 400px;
-    padding: 120px 0 60px 0;
+    padding-top: 120px;
     align-items: center;
     display: flex;
     justify-content: center;
   }
-  img {
+  .drank {
     position: absolute;
     top: 10px;
     left: 50%;
@@ -47,10 +47,12 @@ export default {
   }
   .logo {
     position: relative;
-    padding-bottom: 20px;
-    max-width: 280px;
-    line-height: 1.1;
-    margin-bottom: 60px;
+    margin: 40px 0 60px 0;
+    text-align: center;
+
+    @media (min-width: 920px) {
+      margin: 80px 0;
+    }
 
     .nft {
       font-style: italic;

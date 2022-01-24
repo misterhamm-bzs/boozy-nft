@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="description section">
     <div class="container">
-      <h2 class="nes-text is-primary">Your favorite drink. Now just for you.</h2>
+      <h2 class="nes-text is-primary">Your favorite drink. <br> Now just for you.</h2>
       <p>We all have our favorite drink. Your go-to. The one you can rely on to taste good no matter what. Now you can be the only one in the world to own it with CoolCocktail<em>NFT</em></p>
       <ul>
         <li><img src="~@/assets/drinks/1.png" alt=""></li>
@@ -42,14 +42,11 @@ export default {
     }
 
     li {
+      margin-bottom: 15px;
        @media (min-width: 768px) {
         flex-basis: calc(33% - 15px);
         margin-bottom: 30px;
        }
     }
-  }
-
-  h2 {
-    margin-bottom: 40px;
   }
 </style>
