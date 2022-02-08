@@ -1,8 +1,8 @@
 <template>
   <div class="description section">
     <div class="container">
+      <br><br><br>
       <h2 class="nes-text is-primary">Your favorite drink. <br> Now just for you.</h2>
-      <p>We all have our favorite drink. Your go-to. The one you can rely on to taste good no matter what. Now you can be the only one in the world to own it with CoolCocktail<em>NFT</em></p>
       <ul>
         <li><img src="~@/assets/drinks/1.png" alt=""></li>
         <li><img src="~@/assets/drinks/2.png" alt=""></li>

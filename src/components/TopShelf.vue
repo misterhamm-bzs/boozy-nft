@@ -1,22 +1,52 @@
 <template>
   <div class="top-shelf section container">
+    <br><br>
     <h2 class="nes-text is-primary">Not satisfied with the mundane?</h2>
     <p>CoolCocktailNFT has 50 Legendary drinks that are truly the rarest of all. We call these our "Top Shelf" drinks. Each one has been hand crafted and features a different combination of the rarest attributes. Truly a drink for the discriminating palate.</p>
 
-    <div class="legendary">
-      <span class="nes-badge tag">
-        <span class="is-warning">
-          <span class="shiny">
-            <span class="inner-shiny">Legendary</span>
+    <div class="legendaries">
+      <div class="legendary-container small">
+        <div class="legendary">
+          <span class="nes-badge tag">
+            <span class="is-warning">
+              <span class="shiny">
+                <span class="inner-shiny">Legendary</span>
+              </span>
+            </span>
           </span>
-        </span>
-      </span>
-      <img src="~@/assets/drinks/5.png" alt="">
+          <img src="~@/assets/drinks/1.png" alt="">
+        </div>
+      </div>
+      <div class="legendary-container large">
+        <div class="legendary">
+          <span class="nes-badge tag">
+            <span class="is-warning">
+              <span class="shiny">
+                <span class="inner-shiny">Legendary</span>
+              </span>
+            </span>
+          </span>
+          <img src="~@/assets/drinks/2.png" alt="">
+        </div>
+      </div>
+      <div class="legendary-container small">
+        <div class="legendary">
+          <span class="nes-badge tag">
+            <span class="is-warning">
+              <span class="shiny">
+                <span class="inner-shiny">Legendary</span>
+              </span>
+            </span>
+          </span>
+          <img src="~@/assets/drinks/3.png" alt="">
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'TopShelf',
   data() {
@@ -33,21 +63,48 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-  .legendary {
+
+@media (min-width: 920px) {
+  .legendaries {
     position: relative;
-    margin-top: 60px;
+    width: 100%;
+  }
+  .legendary-container.large {
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+    max-width: 50%;
+  }
+  .legendary-container.small {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    max-width: 30%;
+    transform: translateY(-50%);
 
-    .tag {
-      position: absolute;
-      top: -10px;
-      right: 0;
+    &:first-child {
+      left: -60px;
     }
-
-    .nes-badge span.is-warning:first-child {
-      background-color: #f7d51d;
-      position: relative;
+    &:last-child {
+      right: -60px;
     }
   }
+}
+.legendary {
+  position: relative;
+  margin-top: 20px;
+
+  .tag {
+    position: absolute;
+    top: -10px;
+    right: 0;
+  }
+
+  .nes-badge span.is-warning:first-child {
+    background-color: #f7d51d;
+    position: relative;
+  }
+}
 .shiny {
     background-color: black;
 
@@ -57,28 +114,28 @@ export default {
     position: relative;
 }
 
-    .shiny::before {
-        background-position: -180px;
-        -webkit-animation: flare 5s infinite;
-        -webkit-animation-timing-function: linear;
-        background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.6) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        content: "Legendary";
-        color: #FFF;
-        display: block;
-        padding-right: 140px;
-        position: absolute;
-    }
+.shiny::before {
+    background-position: -180px;
+    -webkit-animation: flare 5s infinite;
+    -webkit-animation-timing-function: linear;
+    background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.6) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    content: "Legendary";
+    color: #FFF;
+    display: block;
+    padding-right: 140px;
+    position: absolute;
+}
 
-    .shiny::after {
-        content: "Legendary";
-        color: #FFF;
-        display: block;
-        position: absolute;
-        top: 0;
-        z-index: -1;
-    }
+.shiny::after {
+    content: "Legendary";
+    color: #FFF;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
 
 .inner-shiny::after, .inner-shiny::before {
     -webkit-animation: sparkle 5s infinite;
