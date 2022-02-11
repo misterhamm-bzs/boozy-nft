@@ -2,7 +2,7 @@
   <div class="top-shelf section container">
     <br><br>
     <h2 class="nes-text is-primary">Not satisfied with the mundane?</h2>
-    <p>CoolCocktailNFT has a collection of legendary drinks that are truly the rarest of all. We call these our "Top Shelf" drinks. Each one has been hand crafted and features a different combination of the rarest attributes. Truly a drink for the discriminating palate.</p>
+    <p>Cool Cocktail NFT has a collection of legendary drinks that are truly the rarest of all. We call these our "Top Shelf" drinks. Each one has been hand crafted and features a different combination of the rarest attributes. Truly a drink for the discriminating palate.</p>
 
     <div class="legendaries">
       <div class="legendary-container small">

@@ -17,7 +17,7 @@
         </section>
 
         <p>
-          CoolCocktail<em>NFT</em>s are 5,000 AI generated NFTs stored on the ETH blockchain.
+          Cool Cocktail NFTs are 5,000 AI generated collectibles stored on the ETH blockchain.
             These cocktails have hundreds of uniquely generated attributes, built by our algorithm to
             give you a pixel perfect drink of choice.
         </p>
