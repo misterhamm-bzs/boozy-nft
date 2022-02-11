@@ -7,7 +7,7 @@
         <span class="name nes-badge">
           <span class="is-error">Ruby</span>
         </span>
-        <span class="position">Mr. Business Pants</span>
+        <span class="position">The Business Guy</span>
       </li>
       <li>
         <img src="~@/assets/mark.png" alt="">
@@ -21,7 +21,7 @@
         <span class="name nes-badge">
           <span class="is-error">Hamm</span>
         </span>
-        <span class="position">Also Contributed</span>
+        <span class="position">Webmaster</span>
       </li>
     </ul>
   </div>

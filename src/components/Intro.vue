@@ -1,36 +1,34 @@
 <template>
   <div class="intro">
     <div class="container">
-        <img class="drank" src="~@/assets/red-glass.png" alt="">
+
       <h1 class="logo">
         <img src="~@/assets/logo.png" alt="">
       </h1>
 
         <section class="message-list">
-          <section class="message -left">
+          <section class="message -left quote">
             <!-- Balloon -->
-            <i class="nes-bcrikko"></i>
+            <img class="drank" src="~@/assets/red-glass.png" alt="">
             <div class="nes-balloon from-left is-dark">
-              <p>It's been a long day hunting down NFTs.  Why not take a break and grab yourself a unique crypto cocktail
-          to sip on in the metaverse.</p>
+              <p>Thirsty? You've come to the right place.</p>
             </div>
           </section>
         </section>
-      <br> <br> <br>
+
         <p>
           CoolCocktail<em>NFT</em>s are 5,000 AI generated NFTs stored on the ETH blockchain.
             These cocktails have hundreds of uniquely generated attributes, built by our algorithm to
-            give you a pixel perfect drink of choice.  Will you be the one to collect one of the 50
-            hand crafted Legendary cocktails?
+            give you a pixel perfect drink of choice.
         </p>
         <img src="~@/assets/drinks/10.png" alt="">
 <br> <br>
         <div class="nes-container is-dark is-centered">
-          <p>The best part, we are pledging 10% of our earnings to support <a href="https://bizstreamacademy.com" target="_blank" rel="noreferrer">BizStream Academy</a></p>
+          <p>The best part, we are pledging 10% of our earnings to support <a href="https://bizstreamacademy.com" target="_blank" rel="noreferrer">BizStream Academy</a>, a summer coding bootcamp aimed at high-school students.</p>
         </div>
 
       <div class="cta">
-          <a href="https://opensea.io/collection/coolcocktailnft" class="nes-btn is-primary" target="_blank" rel="noreferrer">OpenSea</a>
+          <a href="https://opensea.io/collection/coolcocktailnft" class="nes-btn is-primary" target="_blank" rel="noreferrer">OpenSea Collection</a>
       </div>
     </div>
   </div>
@@ -56,13 +54,7 @@ export default {
     display: flex;
     justify-content: center;
   }
-  .drank {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 110px;
-  }
+
   .logo {
     position: relative;
     margin: 40px 0 60px 0;
@@ -88,5 +80,6 @@ export default {
 
   .message-list {
     margin-top: 0;
+    margin-bottom: 150px;
   }
 </style>

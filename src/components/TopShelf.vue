@@ -2,7 +2,7 @@
   <div class="top-shelf section container">
     <br><br>
     <h2 class="nes-text is-primary">Not satisfied with the mundane?</h2>
-    <p>CoolCocktailNFT has 50 Legendary drinks that are truly the rarest of all. We call these our "Top Shelf" drinks. Each one has been hand crafted and features a different combination of the rarest attributes. Truly a drink for the discriminating palate.</p>
+    <p>CoolCocktailNFT has a collection of legendary drinks that are truly the rarest of all. We call these our "Top Shelf" drinks. Each one has been hand crafted and features a different combination of the rarest attributes. Truly a drink for the discriminating palate.</p>
 
     <div class="legendaries">
       <div class="legendary-container small">
@@ -26,7 +26,7 @@
               </span>
             </span>
           </span>
-          <img src="~@/assets/drinks/leg-2.png" alt="">
+          <img src="~@/assets/drinks/leg-3.png" alt="">
         </div>
       </div>
       <div class="legendary-container small">
@@ -38,10 +38,19 @@
               </span>
             </span>
           </span>
-          <img src="~@/assets/drinks/leg-3.png" alt="">
+          <img src="~@/assets/drinks/leg-2.png" alt="">
         </div>
       </div>
     </div>
+    <section class="message-list">
+          <section class="message -left quote">
+            <!-- Balloon -->
+            <img class="drank" src="~@/assets/red-glass.png" alt="">
+            <div class="nes-balloon from-left is-dark">
+              <p>Oooooh, sexy...</p>
+            </div>
+          </section>
+        </section>
   </div>
 </template>
 
@@ -103,6 +112,22 @@ export default {
   .nes-badge span.is-warning:first-child {
     background-color: #f7d51d;
     position: relative;
+  }
+}
+
+.message-list {
+  margin-top: 20px;
+  font-size: .6rem;
+  margin-bottom: 20px;
+    @media (min-width: 920px) {
+      margin-bottom: 60px;
+    }
+
+  .message {
+    margin-top: 0;
+  }
+  .nes-balloon {
+    padding: 0.75rem;
   }
 }
 .shiny {

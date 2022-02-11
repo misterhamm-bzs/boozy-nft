@@ -20,7 +20,6 @@
         <hr>
         <div class="footer-bottom">
           <div class="footer-left">&copy; 2022 CoolCocktailNFT</div>
-          <div class="footer-right">something something something</div>
         </div>
       </div>
     </div>

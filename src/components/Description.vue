@@ -1,8 +1,15 @@
 <template>
   <div class="description section">
     <div class="container">
-      <br><br><br>
-      <h2 class="nes-text is-primary">Your favorite drink. <br> Now just for you.</h2>
+      <section class="message-list">
+          <section class="message -right quote">
+            <!-- Balloon -->
+            <img class="drank" src="~@/assets/red-glass.png" alt="">
+            <div class="nes-balloon from-right is-dark">
+              <p>Own one first and I'll give you the coveted mixologist title.</p>
+            </div>
+          </section>
+        </section>
       <ul>
         <li><img src="~@/assets/drinks/1.png" alt=""></li>
         <li><img src="~@/assets/drinks/2.png" alt=""></li>
@@ -47,6 +54,20 @@ export default {
         flex-basis: calc(33% - 15px);
         margin-bottom: 30px;
        }
+    }
+  }
+
+  .message-list {
+    margin-bottom: 80px;
+    margin-top: 60px;
+
+    @media (min-width: 920px) {
+      margin-bottom: 120px;
+    }
+
+    .drank {
+      right: 0;
+      left: auto;
     }
   }
 </style>
