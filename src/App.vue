@@ -2,13 +2,13 @@
   <div class="page">
     <main>
       <div class="links">
-        <a href="https://www.twitter.com">
+        <a href="https://www.twitter.com" target="_blank">
          <i class="nes-icon twitter is-large"></i>
         </a>
-        <a href="https://www.instagram.com">
+        <a href="https://www.instagram.com" target="_blank">
          <i class="nes-icon instagram is-large"></i>
         </a>
-        <a href="https://www.opensea.io" class="nes-btn is-primary">OpenSea</a>
+        <a href="https://www.opensea.io" class="nes-btn is-primary" target="_blank">OpenSea</a>
       </div>
       <Intro/>
       <Description/>
