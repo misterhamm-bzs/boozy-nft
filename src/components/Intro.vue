@@ -23,14 +23,14 @@
             give you a pixel perfect drink of choice.  Will you be the one to collect one of the 50
             hand crafted Legendary cocktails?
         </p>
-        <img src="~@/assets/drinks/1.png" alt="">
+        <img src="~@/assets/drinks/10.png" alt="">
 <br> <br>
         <div class="nes-container is-dark is-centered">
-          <p>The best part, we are pledging 10% of our earnings to support "BLANK CHARITY"</p>
+          <p>The best part, we are pledging 10% of our earnings to support <a href="https://bizstreamacademy.com" target="_blank" rel="noreferrer">BizStream Academy</a></p>
         </div>
 
       <div class="cta">
-          <a href="#" class="nes-btn is-primary">OpenSea</a>
+          <a href="https://opensea.io/collection/coolcocktailnft" class="nes-btn is-primary" target="_blank" rel="noreferrer">OpenSea</a>
       </div>
     </div>
   </div>

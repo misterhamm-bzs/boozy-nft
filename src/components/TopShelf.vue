@@ -14,7 +14,7 @@
               </span>
             </span>
           </span>
-          <img src="~@/assets/drinks/1.png" alt="">
+          <img src="~@/assets/drinks/leg-1.png" alt="">
         </div>
       </div>
       <div class="legendary-container large">
@@ -26,7 +26,7 @@
               </span>
             </span>
           </span>
-          <img src="~@/assets/drinks/2.png" alt="">
+          <img src="~@/assets/drinks/leg-2.png" alt="">
         </div>
       </div>
       <div class="legendary-container small">
@@ -38,7 +38,7 @@
               </span>
             </span>
           </span>
-          <img src="~@/assets/drinks/3.png" alt="">
+          <img src="~@/assets/drinks/leg-3.png" alt="">
         </div>
       </div>
     </div>

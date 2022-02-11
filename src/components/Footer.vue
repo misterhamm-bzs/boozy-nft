@@ -5,13 +5,16 @@
         <div class="footer-left">
            <img src="~@/assets/logo.png" alt="">
            <div class="social">
-            <a href="https://www.twitter.com" target="_blank">
+            <a href="https://twitter.com/CoolCocktailNFT" target="_blank" rel="noreferrer" title="link to twitter account">
             <i class="nes-icon twitter"></i>
             </a>
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="https://www.instagram.com/coolcocktailnft/" target="_blank" rel="noreferrer" title="link to instagram account">
             <i class="nes-icon instagram"></i>
             </a>
-            <a href="https://www.opensea.io" class="nes-btn is-primary" target="_blank">OpenSea</a>
+            <a href="https://www.facebook.com/CoolCocktail-NFT-100327719255771" target="_blank" rel="noreferrer" title="link to facebook account">
+              <i class="nes-icon facebook"></i>
+            </a>
+            <a href="https://opensea.io/collection/coolcocktailnft" class="nes-btn is-primary" target="_blank" rel="noreferrer">OpenSea</a>
            </div>
         </div>
         <hr>

@@ -3,21 +3,21 @@
     <h2>The Team</h2>
     <ul>
       <li>
-        <img src="~@/assets/drinks/1.png" alt="">
+        <img src="~@/assets/ruby.png" alt="">
         <span class="name nes-badge">
           <span class="is-error">Ruby</span>
         </span>
         <span class="position">Mr. Business Pants</span>
       </li>
       <li>
-        <img src="~@/assets/drinks/2.png" alt="">
+        <img src="~@/assets/mark.png" alt="">
         <span class="name nes-badge">
           <span class="is-error">Big Mark</span>
         </span>
         <span class="position">Techno Wizard</span>
       </li>
       <li>
-        <img src="~@/assets/drinks/9.png" alt="">
+        <img src="~@/assets/chris.png" alt="">
         <span class="name nes-badge">
           <span class="is-error">Hamm</span>
         </span>
