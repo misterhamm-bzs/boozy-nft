@@ -24,7 +24,7 @@
         <img src="~@/assets/drinks/10.png" alt="">
 <br> <br>
         <div class="nes-container is-dark is-centered">
-          <p>The best part, we are pledging 10% of our earnings to support <a href="https://bizstreamacademy.com" target="_blank" rel="noreferrer">BizStream Academy</a>, a summer coding bootcamp aimed at high-school students.</p>
+          <p>The best part, we are pledging 10% of our earnings to support <a href="http://bizstreamacademy.com" target="_blank" rel="noreferrer">BizStream Academy</a>, a summer coding bootcamp aimed at high-school students.</p>
         </div>
 
       <div class="cta">
