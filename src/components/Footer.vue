@@ -5,16 +5,19 @@
         <div class="footer-left">
            <img src="~@/assets/logo.png" alt="">
            <div class="social">
-            <a href="https://twitter.com/CoolCocktailNFT" target="_blank" rel="noreferrer" title="link to twitter account">
-            <i class="nes-icon twitter"></i>
-            </a>
-            <a href="https://www.instagram.com/coolcocktailnft/" target="_blank" rel="noreferrer" title="link to instagram account">
-            <i class="nes-icon instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/CoolCocktail-NFT-100327719255771" target="_blank" rel="noreferrer" title="link to facebook account">
-              <i class="nes-icon facebook"></i>
-            </a>
-            <a href="https://opensea.io/collection/coolcocktailnft" class="nes-btn is-primary" target="_blank" rel="noreferrer">OpenSea</a>
+              <a href="https://discord.gg/XGbYUnzEHt" target="_blank" rel="noreferrer" title="link to discord server">
+                <img src="~@/assets/discord.jpg" />
+              </a>
+              <a href="https://twitter.com/CoolCocktailNFT" target="_blank" rel="noreferrer" title="link to twitter account">
+                <i class="nes-icon twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/coolcocktailnft/" target="_blank" rel="noreferrer" title="link to instagram account">
+                <i class="nes-icon instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/CoolCocktail-NFT-100327719255771" target="_blank" rel="noreferrer" title="link to facebook account">
+                <i class="nes-icon facebook"></i>
+              </a>
+              <a href="https://opensea.io/collection/coolcocktailnft" class="nes-btn is-primary" target="_blank" rel="noreferrer">OpenSea</a>
            </div>
         </div>
         <hr>
@@ -58,7 +61,16 @@ export default {
       margin-left: 40px;
     }
 
+    .nes-icon {
+      margin-bottom: 0;
+      transform-origin: 0;
+    }
 
+    img {
+      border-radius: 6px;
+      display: block;
+      max-width: 34px;
+    }
 
     a {
       display: inline-block;
@@ -71,6 +83,7 @@ export default {
 
     @media (min-width: 920px){
       display: flex;
+      justify-content: space-between;
     }
   }
 

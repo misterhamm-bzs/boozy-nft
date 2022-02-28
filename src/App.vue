@@ -2,6 +2,9 @@
   <div class="page">
     <main>
       <div class="links">
+        <a href="https://discord.gg/XGbYUnzEHt" target="_blank" rel="noreferrer" title="link to discord server">
+          <img src="~@/assets/discord.jpg" />
+        </a>
         <a href="https://twitter.com/CoolCocktailNFT" target="_blank" rel="noreferrer" title="link to twitter account">
           <i class="nes-icon twitter"></i>
         </a>
@@ -58,6 +61,17 @@ export default {
   a {
     display: inline-block;
     margin: 0 10px;
+  }
+
+  img {
+    border-radius: 6px;
+    display: block;
+    max-width: 34px;
+  }
+
+  .nes-icon {
+    margin-bottom: 0;
+    transform-origin: 0;
   }
 }
 .page {
